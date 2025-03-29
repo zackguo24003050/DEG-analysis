@@ -4,7 +4,7 @@ This project compares gene expression between early-stage (stage I–II) and adv
 
 ## Data
 
-- Expression data: `expr_sclc_ucologne_2015.rds`
+- Expression data: `expr_normalized_median_polish.rds`
 - Clinical data: `pheno_sclc_ucologne_2015.tsv`
 
 ## Method
