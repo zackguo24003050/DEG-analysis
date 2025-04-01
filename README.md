@@ -16,7 +16,7 @@ This project compares gene expression between early-stage (stage I–II) and adv
 
 ## Results
 
-- DEGs (p < 0.01 and |log2FC| > 1): 5
+- DEGs (p < 0.01 and |log2FC| > 1): 4
 
 ## Output
 
