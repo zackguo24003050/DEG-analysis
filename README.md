@@ -16,8 +16,7 @@ This project compares gene expression between early-stage (stage I–II) and adv
 
 ## Results
 
-- Significant DEGs (FDR < 0.05): 0
-- Exploratory genes (p < 0.01 and |log2FC| > 1): [fill in number]
+- DEGs (p < 0.01 and |log2FC| > 1): 5
 
 ## Output
 
