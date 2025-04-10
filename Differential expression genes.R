@@ -31,8 +31,8 @@ fit <- eBayes(fit)
 results <- topTable(fit, coef = "groupadvanced", number = Inf, sort.by = "P")
 
 # Filter DEG
-deg_explore <- results[results$P.Value < 0.01 & abs(results$logFC) > 1, ]
-cat("DEGs (p < 0.01 & |logFC| > 1):", nrow(deg_explore), "\n")
+deg <- results[results$P.Value < 0.01 & abs(results$logFC) > 1, ]
+cat("DEGs (p < 0.01 & |logFC| > 1):", nrow(deg), "\n")
 
 # Package for plotting
 library(ggplot2)
